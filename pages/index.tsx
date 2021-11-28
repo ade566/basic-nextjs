@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <Layout>
+    <Layout pageTitle="Home Page">
       <h1 className={styles["title-homepage"]}>Hello Ade</h1>
     </Layout>
   );
