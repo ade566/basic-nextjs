@@ -1,21 +1,8 @@
-import Link from "next/link";
+import Header from "../../components/header";
 export default function Blog() {
   return (
     <>
-      <header>
-        <ul>
-          <li>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog">
-              <a>Blog</a>
-            </Link>
-          </li>
-        </ul>
-      </header>
+      <Header />
       <h1>Blog</h1>
     </>
   );
