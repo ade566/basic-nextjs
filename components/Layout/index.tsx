@@ -1,8 +1,8 @@
+import { ReactNode } from "react";
+import Head from "next/head";
 import Header from "../header";
 import Footer from "../footer";
-import { ReactNode } from "react";
 import styles from "./Layout.module.css";
-import Head from "next/head";
 
 interface LayoutProps {
   children: ReactNode;
@@ -13,7 +13,10 @@ export default function Layout(props: LayoutProps) {
   return (
     <>
       <Head>
-        <title>NextJS Basic | {pageTitle}</title>
+        <title>
+          NextJS Basic |
+          {pageTitle}
+        </title>
         <meta name="description" content="Website NextJS Basic" />
       </Head>
       <div className={styles.container}>

@@ -7,14 +7,10 @@ export default function Header() {
     <header className={styles.container}>
       <ul className={styles.list}>
         <li className={styles.item}>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
+          <Link href="/">Home</Link>
         </li>
         <li className={styles.item}>
-          <Link href="/blog">
-            <a>Blog</a>
-          </Link>
+          <Link href="/users">Users</Link>
         </li>
       </ul>
     </header>

@@ -6,7 +6,10 @@ export default function Blog() {
   const { id } = router.query;
   return (
     <Layout pageTitle="Blog Page">
-      <h1 className="title">Blog {id}</h1>
+      <h1 className="title">
+        Blog
+        {id}
+      </h1>
     </Layout>
   );
 }
