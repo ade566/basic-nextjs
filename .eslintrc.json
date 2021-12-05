@@ -23,8 +23,19 @@
         "react-hooks"
     ],
     "rules": {
-        "quotes": ["error", "double"],
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx",".ts", ".tsx"] }],
+        "semi": "off",
+        "quotes": "off",
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            }
+        ],
         "react/react-in-jsx-scope": "off",
         "import/extensions": [
             "error",
@@ -40,17 +51,15 @@
         "no-console": "off",
         "react/jsx-props-no-spreading": "off",
         "no-use-before-define": "off",
-        "@typescript-eslint/no-use-before-define": "off",
         "react-hooks/rules-of-hooks": "off",
         "react-hooks/exhaustive-deps": "off",
         "react/jsx-key": "off",
-        "@next/next/link-passhref": "off"
-    },
-    "settings": {
-        "import/resolver": {
-            "node": {
-                "extensions": [".js", ".jsx", ".ts", ".tsx"]
-            }
-        }
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "react/jsx-curly-newline": "off",
+        "react/jsx-tag-spacing": "off",
+        "eol-last": "off",
+        "comma-dangle": "off",
+        "prefer-destructuring": "off"
     }
 }
