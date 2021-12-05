@@ -12,6 +12,9 @@ export default function Header() {
         <li className={styles.item}>
           <Link href="/users">Users</Link>
         </li>
+        <li className={styles.item}>
+          <Link href="/blogs">blog</Link>
+        </li>
       </ul>
     </header>
   );

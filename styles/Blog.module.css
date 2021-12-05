@@ -1,0 +1,14 @@
+.card {
+  padding: 10px 15px;
+  cursor:pointer;
+  width: auto;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #f5f5f5;
+}
+
+.id_blog{
+  font-weight: 800;
+  font-size: 16px;
+}
